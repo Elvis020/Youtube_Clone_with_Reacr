@@ -1,0 +1,26 @@
+.sideRowContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in;
+}
+
+.sideRowContainer.selected {
+  background-color: lightgray;
+}
+.sideRowContainer.selected > .icon {
+  color: red;
+}
+.sideRowContainer.selected > .title {
+  font-weight: bold;
+}
+.sideRowContainer:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.sideRowContainer:hover > .icon {
+  color: red;
+}
+.sideRowContainer:hover > .title {
+  font-weight: bold;
+}
